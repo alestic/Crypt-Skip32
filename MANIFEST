@@ -14,3 +14,4 @@ t/04pod-coverage.t
 t/05xs.t
 examples/crypt-skip32-sample1
 SIGNATURE    Added here by Module::Build
+META.json

@@ -9,7 +9,7 @@ if (not $ENV{CRYPT_SKIP32_PP} and eval 'use Crypt::Skip32::XS; 1') {
   eval q(sub Crypt::Skip32 () { 'Crypt::Skip32::XS' });
 }
 
-our $VERSION = '0.15';
+our $VERSION = '0.16';
 
 eval <<'EOP' if not defined &new;
 
@@ -291,6 +291,12 @@ interface, it is not intended for use in encrypting long chunks of
 text.  For those purposes, it is suggested you use another high
 quality, proven cipher with a longer block size.
 
+=head1 SOURCE
+
+The source for this module is being maintained on github:
+
+    https://github.com/alestic/Crypt-Skip32
+
 =head1 SEE ALSO
 
 The original SKIP32 implementation in C by Greg Rose:
@@ -312,7 +318,7 @@ implementation of the Skipjack algorithm written by Panu Rissanen.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2007-2008 Eric Hammond
+Copyright (C) 2007-2011 Eric Hammond E<lt>eric-cpan@thinksome.comE<gt>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.8 or,

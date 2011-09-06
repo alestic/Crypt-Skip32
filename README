@@ -124,6 +124,11 @@ CAVEATS
     For those purposes, it is suggested you use another high quality, proven
     cipher with a longer block size.
 
+SOURCE
+    The source for this module is being maintained on github:
+
+        https://github.com/alestic/Crypt-Skip32
+
 SEE ALSO
     The original SKIP32 implementation in C by Greg Rose:
     http://www.qualcomm.com.au/PublicationsDocs/skip32.c
@@ -141,7 +146,7 @@ AUTHOR
     implementation of the Skipjack algorithm written by Panu Rissanen.
 
 COPYRIGHT AND LICENSE
-    Copyright (C) 2007-2008 Eric Hammond
+    Copyright (C) 2007-2011 Eric Hammond <eric-cpan@thinksome.com>
 
     This library is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself, either Perl version 5.8.8 or, at
