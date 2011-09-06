@@ -1,0 +1,8 @@
+~$
+^\.
+^blib$
+^_build
+^MANIFEST.SKIP$
+^MYMETA.json$
+^MYMETA.yml$
+^debian
