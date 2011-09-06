@@ -17,7 +17,7 @@ name: Crypt-Skip32
 provides:
   Crypt::Skip32:
     file: lib/Crypt/Skip32.pm
-    version: 0.16
+    version: 0.17
 recommends:
   Crypt::CBC: 2.22
   Crypt::Skip32::XS: 0
@@ -26,4 +26,4 @@ requires:
   perl: v5.8.0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.16
+version: 0.17

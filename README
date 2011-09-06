@@ -124,10 +124,33 @@ CAVEATS
     For those purposes, it is suggested you use another high quality, proven
     cipher with a longer block size.
 
+INSTALLATION
+    If your Linux distro does not have a prepared package for this module,
+    then the preferred method for installation is directly from the CPAN
+    using a command like:
+
+        sudo cpan Crypt::Skip32
+
 SOURCE
     The source for this module is being maintained on github:
 
         https://github.com/alestic/Crypt-Skip32
+
+    Forks and patches will be reviewed, but please be aware that the
+    targeted functionality of this particular module is very narrow.
+
+    Feel free to build other abstractions on top of this module if you want
+    to make it easier to use or to create a particular application for its
+    use.
+
+BUGS
+    Problems and feature requests can be submitted through the github
+    "issues" link:
+
+        https://github.com/alestic/Crypt-Skip32/issues
+
+    A gentle reminder sent directly to the author (below) may also help
+    increase awareness and attention.
 
 SEE ALSO
     The original SKIP32 implementation in C by Greg Rose:

@@ -9,7 +9,7 @@ if (not $ENV{CRYPT_SKIP32_PP} and eval 'use Crypt::Skip32::XS; 1') {
   eval q(sub Crypt::Skip32 () { 'Crypt::Skip32::XS' });
 }
 
-our $VERSION = '0.16';
+our $VERSION = '0.17';
 
 eval <<'EOP' if not defined &new;
 
@@ -291,11 +291,36 @@ interface, it is not intended for use in encrypting long chunks of
 text.  For those purposes, it is suggested you use another high
 quality, proven cipher with a longer block size.
 
+=head1 INSTALLATION
+
+If your Linux distro does not have a prepared package for this module,
+then the preferred method for installation is directly from the CPAN
+using a command like:
+
+    sudo cpan Crypt::Skip32
+
 =head1 SOURCE
 
 The source for this module is being maintained on github:
 
     https://github.com/alestic/Crypt-Skip32
+
+Forks and patches will be reviewed, but please be aware that the
+targeted functionality of this particular module is very narrow.
+
+Feel free to build other abstractions on top of this module if you
+want to make it easier to use or to create a particular application
+for its use.
+
+=head1 BUGS
+
+Problems and feature requests can be submitted through the github
+"issues" link:
+
+    https://github.com/alestic/Crypt-Skip32/issues
+
+A gentle reminder sent directly to the author (below) may also help
+increase awareness and attention.
 
 =head1 SEE ALSO
 
