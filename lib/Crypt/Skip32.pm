@@ -6,7 +6,7 @@ use warnings;
 use Carp qw(croak);
 
 if (not $ENV{CRYPT_SKIP32_PP} and eval 'use Crypt::Skip32::XS; 1') {
-  eval q(sub Crypt::Skip32 () { 'Crypt::Skip32::XS' });
+  *new = *Crypt::Skip32::XS::new;
 }
 
 our $VERSION = '0.17';
