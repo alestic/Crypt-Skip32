@@ -3,10 +3,10 @@ use warnings;
 use Test::More;
 
 BEGIN {
-  eval 'use Crypt::Skip32';
+  eval 'use Crypt::Skip32 0.19';
   if ( $@ ) {
     plan tests => 1;
-    fail('use Crypt::Skip32');
+    use_ok('Crypt::Skip32', 0.19);
     exit(1);
   } else {
     eval 'use Crypt::Skip32::XS';
