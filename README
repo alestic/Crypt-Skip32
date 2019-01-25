@@ -162,14 +162,14 @@ SEE ALSO
     Crypt::Skip32::XS
 
 AUTHOR
-    Perl code maintained by Eric Hammond <eric-cpan@thinksome.com>
+    Perl code maintained by Eric Hammond <eric-cpan-2@thinksome.com>
     http://www.anvilon.com
 
     Original SKIP32 C code written 1999-04-27 by Greg Rose, based on an
     implementation of the Skipjack algorithm written by Panu Rissanen.
 
 COPYRIGHT AND LICENSE
-    Copyright (C) 2007-2011 Eric Hammond <eric-cpan@thinksome.com>
+    Copyright (C) 2007-2011 Eric Hammond <eric-cpan-2@thinksome.com>
 
     This library is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself, either Perl version 5.8.8 or, at

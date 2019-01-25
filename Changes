@@ -1,5 +1,8 @@
 Revision history for Perl extension Crypt::Skip32.
 
+0.18  Fri Jan 29 00:40:34 PST 2010
+       - Email address update
+
 0.15  Fri Jan 29 00:40:34 PST 2010 
        - Documentation example fix. (Joe Edmonds <joe@elem.com>)
 

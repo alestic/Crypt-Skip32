@@ -6,7 +6,7 @@ my $build = Module::Build->new
   (
    module_name => 'Crypt::Skip32',
    license  => 'perl',
-   dist_author => 'Eric Hammond <eric-cpan@thinksome.com>',
+   dist_author => 'Eric Hammond <eric-cpan-2@thinksome.com>',
    abstract => '32-bit block cipher based on Skipjack',
    requires => {
                 'perl'               => '5.8.0',
