@@ -341,6 +341,18 @@ http://www.anvilon.com
 Original SKIP32 C code written 1999-04-27 by Greg Rose, based on an
 implementation of the Skipjack algorithm written by Panu Rissanen.
 
+=head1 CREDITS
+
+The following have contributed to the Perl version:
+
+    John Laur
+    Joe Edmonds
+    gray
+
+And, of course, this is entirely based on the C version written by:
+
+    Greg Rose
+
 =head1 COPYRIGHT AND LICENSE
 
 Copyright (C) 2007-2019 Eric Hammond E<lt>eric-cpan-2@thinksome.comE<gt>
